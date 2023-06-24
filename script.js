@@ -4,8 +4,6 @@ let rightButton = document.querySelector(".right-button");
 let slidercontainer=document.querySelector(".slider-main");
 let singleslider= document.querySelector(".slider")
 
-console.log("leftButton", leftButton)
-console.log("rightButton", rightButton)
 
 let sliderlenght= Slider.length;
 
@@ -15,7 +13,7 @@ if(count<=0){
     leftButton.classList.add("disbale")
 }
 
-console.log("count",count)
+
 
 rightButton.addEventListener("click", ()=>{
     count++;
